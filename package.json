@@ -1,0 +1,46 @@
+{
+  "description": "So Special NPM scaffolding",
+  "version": "0.1.0",
+  "main": "bar",
+  "dependencies": {
+    "winston": "~>0.6.2"
+  },
+  "devDependencies": {
+    "expresso": "*"
+  },
+  "scripts": {
+    "test": "expresso -I lib test/*.js",
+    "start": "node bar.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "example": "examples",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/vertexclique/foo.git"
+  },
+  "bugs": {"url": "http://github.com/vertexclique/foo/issues"},
+  "keywords": [
+    "fakir",
+    "fukara",
+    "zengin",
+    "kodaman",
+    "zenci",
+    "beyaz",
+    "rus"
+  ],
+  "licenses" : [
+    {
+      "type" : "MIT",
+      "url" : "http://github.com/vertexclique/foo/raw/master/LICENSE"
+    }
+  ],
+  "name": "foo",
+  "author": "Mahmut Bulut <mahmut@mahmutbulut.com> (http://mahmutbulut.com/)",
+  "homepage": "http://vertexclique.github.com/foo"
+}
