@@ -1,16 +1,19 @@
 {
   "description": "So Special NPM scaffolding",
   "version": "0.1.0",
-  "main": "bar",
+  "bin" : "./bin/scaffold",
+  "main": "bin/scaffold",
+  "preferGlobal": true,
   "dependencies": {
+    "celeri": "~>0.3.2",
+    "mysql": "*",
     "winston": "~>0.6.2"
   },
   "devDependencies": {
-    "expresso": "*"
+    
   },
   "scripts": {
-    "test": "expresso -I lib test/*.js",
-    "start": "node bar.js"
+    "start": "node ./bin/scaffold"
   },
   "directories": {
     "lib": "lib",

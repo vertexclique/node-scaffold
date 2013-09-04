@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+// main'i dahil ediyoruz
+var main = require('../lib/main');
+
+//test için bunu yazıyoruz
+var naber = "+ Reklam yapma!";
+console.log(naber);
+
+// dahil edilen main çalışıyor mu diye bunu yazıyoruz
+console.log(lo);
+
+// fonksiyon nasıl çağırılır ?
+main.insanyukle();
+
+// önce gizli yazılıp sonra export edilen fonksiyon
+main.durunbiraz();
